@@ -1,0 +1,18 @@
+h1 {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.home_grid_category {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #999;
+    margin: 0;
+}
+
+.home_grid_text {
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+}
