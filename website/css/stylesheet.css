@@ -1,6 +1,7 @@
 /* OVERALL STYLES */
 
 h1 {
+    font-family: 'Darker Grotesque', sans-serif;
     font-weight: 700;
     letter-spacing: -2px;
 }
@@ -16,12 +17,16 @@ h1 {
 #jcd_logo{
     max-width: 80px;
     padding: 30px 0;
+    top: 30px;
+    position: relative;
 }
 
 #nav_ul {
     list-style-type: none;
     float: right;
     margin: 0;
+    top: 86px;
+    position: relative;
 }
 
 #nav_ul li{
@@ -32,20 +37,28 @@ h1 {
 #nav_ul li a{
     color: #fff;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 
 @media only screen and (max-width: 600px) {
     #nav_ul {
-        float: none;
-        text-align: center;
+    float: none;
+    text-align: center;
     }
     #nav_ul li{
-        padding: 0px 20px;
+    padding: 0px 20px;
     }
     #jcd_logo_wrapper {
-        text-align: center;
+    text-align: center;
+    }
+    #jcd_logo{
+    top: auto;
+    position: relative;
+    }
+    #nav_ul {
+    top: auto;
+    position: relative;
     }
 }
 
@@ -53,7 +66,7 @@ h1 {
 /* HOMEPAGE */
 
 .home_grid_category {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 14px;
     letter-spacing: 2px;
     color: #999;
@@ -61,7 +74,13 @@ h1 {
 }
 
 .home_grid_text {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 18px;
     color: #000;
+}
+
+/* ABOUT */
+
+#about_bio {
+    font-size: 26px;
 }
