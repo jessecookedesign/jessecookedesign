@@ -11,10 +11,21 @@ h1 {
     font-family: titling-gothic-fb, sans-serif;
     font-weight: 700;
     letter-spacing: -2px;
+    font-size: 70px;
+    line-height: 60px;
+}
+
+h2 {
+    font-family: titling-gothic-fb, sans-serif;
+    font-weight: normal;
+    letter-spacing: -2px;
+    font-size: 48px;
+    line-height: 48px;
 }
 
 a {
     cursor: pointer;
+    text-decoration: none;
 }
 
 
@@ -87,7 +98,7 @@ a {
     font-size: 14px;
     letter-spacing: 2px;
     color: #999;
-    margin: 0;
+    margin: 5px 0px 8px 0px;
 }
 
 .home_grid_text {
