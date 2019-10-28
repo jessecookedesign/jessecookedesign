@@ -13,6 +13,10 @@ h1 {
     letter-spacing: -2px;
 }
 
+a {
+    cursor: pointer;
+}
+
 
 /* MAIN NAV */
 
@@ -88,8 +92,9 @@ h1 {
 
 .home_grid_text {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 22px;
     color: #000;
+    line-height: 20px;
 }
 
 /* ABOUT */
