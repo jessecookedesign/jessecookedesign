@@ -20,12 +20,27 @@ h2 {
     font-weight: normal;
     letter-spacing: -2px;
     font-size: 48px;
-    line-height: 48px;
+    line-height: 50px;
 }
 
 a {
     cursor: pointer;
     text-decoration: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .one-third {
+        margin-bottom: 70px;
+    }
 }
 
 
@@ -106,6 +121,19 @@ a {
     font-size: 22px;
     color: #000;
     line-height: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .home_grid_category {
+    font-size: 22px;
+}
+
+.home_grid_text {
+    font-weight: 400;
+    font-size: 30px;
+    color: #000;
+    line-height: 20px;
+}
 }
 
 /* ABOUT */
