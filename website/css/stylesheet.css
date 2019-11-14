@@ -6,13 +6,16 @@
 ::-moz-selection {
   background: #FF3856;
 }
-
+body {
+    background-color: #000;
+}
 h1 {
     font-family: titling-gothic-fb, sans-serif;
     font-weight: 700;
     letter-spacing: -2px;
     font-size: 70px;
     line-height: 60px;
+    color: #fff;
 }
 
 h2 {
@@ -21,11 +24,18 @@ h2 {
     letter-spacing: -2px;
     font-size: 48px;
     line-height: 50px;
+    color: #fff;
 }
 
 a {
     cursor: pointer;
     text-decoration: none;
+}
+
+p {
+    font-weight: normal;
+    color: #fff;
+    font-size: 16px;
 }
 
 
@@ -38,18 +48,10 @@ a {
         font-size: 32px;
         line-height: 40px;
     }
-    .one-third {
-        margin-bottom: 70px;
-    }
 }
 
 
 /* MAIN NAV */
-
-#nav_wrapper {
-    background-color: #242424;
-    height: 200px;
-}
 
 #jcd_logo{
     max-width: 80px;
@@ -64,6 +66,7 @@ a {
     margin: 0;
     top: 86px;
     position: relative;
+    font-family: titling-gothic-fb, sans-serif;
 }
 
 #nav_ul li{
@@ -105,21 +108,29 @@ a {
     }
 }
 
+/* FOOTER */
+
+.footer_date {
+    font-family: titling-gothic-fb, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
 
 /* HOMEPAGE */
 
 .home_grid_category {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 2px;
-    color: #999;
+    color: #ccc;
     margin: 5px 0px 8px 0px;
+    font-family: titling-gothic-fb, sans-serif;
 }
 
 .home_grid_text {
     font-weight: 400;
     font-size: 22px;
-    color: #000;
+    color: #fff;
     line-height: 20px;
 }
 
@@ -131,8 +142,10 @@ a {
 .home_grid_text {
     font-weight: 400;
     font-size: 30px;
-    color: #000;
     line-height: 20px;
+}
+.hp_column {
+    margin-top: 50px;
 }
 }
 
