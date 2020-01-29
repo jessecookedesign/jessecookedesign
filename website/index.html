@@ -17,6 +17,17 @@
 <link rel="stylesheet" href="css/skeleton.css">
 <link rel="stylesheet" href="css/stylesheet.css">
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script> 
+    // jQuery hover method for hp row
+    $(document).ready(function() { 
+        $(".hp_row_contain").hover(function() { 
+            $(this).css({ "background-color": "#fff", "transform": "scale(1.1)", "padding": "50px" }); 
+        }, function() { 
+            $(this).css({ "background-color": "#000", "transform": "scale(1.0)", "padding": "0px" }); 
+        }); 
+    });
+</script>
 </head>
 
 
@@ -64,13 +75,22 @@
     <div class="row">
       <div class="two-thirds column">
         <h1>jesse allen cooke.</h1>
-          <h2>typography-focused designer and developer<br>+ owner of <a href="https://www.pixlhaus.design/">Pixl Haus</a></h2>
+          <h2>email dev<br>+ typography<br>+ design<br>+ front-end dev<br>+ <a href="https://www.pixlhaus.design/" id="hp_anchor">Pixl Haus</a></h2>
       </div>
     </div>
 </div>
     
 <div class="container" style="margin-top: 10%; margin-bottom: 10%;">
-    <div class="row">
+    <div class="row hp_row_contain" onclick="location.href='project-albumcover.html';" style="cursor: pointer;">
+        <div class="one-half column hp_column">
+            <img src="images/jcd_web_project_album_19.jpg" style="width: 100%;">
+        </div>
+        <div class="one-half column hp_column">
+            <p class="home_grid_category">SIDE PROJECT</p>
+            <a class="home_grid_text" href="project-albumcover.html">The Album Cover</a>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 10%;">
         <div class="one-third column hp_column">
             <a href="project-destiny.html">
             <img src="images/jcd_web_home_destiny.jpg" style="width: 100%;">

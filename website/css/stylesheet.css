@@ -32,6 +32,11 @@ a {
     text-decoration: none;
 }
 
+#hp_anchor:hover {
+    border-bottom: 4px solid #FF4D4D;
+    transition: 0.2s;
+}
+
 p {
     font-weight: normal;
     color: #fff;
@@ -147,6 +152,19 @@ p {
 .hp_column {
     margin-top: 50px;
 }
+}
+
+.hp_row_contain {
+    transition: 1s;
+}
+
+.hp_row_contain:hover p{
+    color: #000;
+}
+
+.hp_row_contain:hover a{
+    color: #000;
+    font-size: 2em;
 }
 
 /* ABOUT */
