@@ -7,7 +7,7 @@
   background: #FF3856;
 }
 body {
-    background-color: #000;
+    background-color: #2a2c31;
 }
 h1 {
     font-family: titling-gothic-fb, sans-serif;
@@ -15,7 +15,7 @@ h1 {
     letter-spacing: -2px;
     font-size: 70px;
     line-height: 60px;
-    color: #fff;
+    color: #fafafa;
 }
 
 h2 {
@@ -24,7 +24,7 @@ h2 {
     letter-spacing: -2px;
     font-size: 48px;
     line-height: 50px;
-    color: #fff;
+    color: #fafafa;
 }
 
 a {
@@ -39,7 +39,7 @@ a {
 
 p {
     font-weight: normal;
-    color: #fff;
+    color: #fafafa;
     font-size: 16px;
 }
 
@@ -80,7 +80,7 @@ p {
 }
 
 #nav_ul li a{
-    color: #fff;
+    color: #fafafa;
     text-decoration: none;
     font-weight: 700;
 }
@@ -135,7 +135,7 @@ p {
 .home_grid_text {
     font-weight: 400;
     font-size: 22px;
-    color: #fff;
+    color: #fafafa;
     line-height: 20px;
 }
 
@@ -160,7 +160,7 @@ p {
 }
 .hp_row_contain:hover {
     transition: 1s;
-    background-color: #fff;
+    background-color: #fafafa;
     transform: scale(1.1);
     padding: 50px;
 }
