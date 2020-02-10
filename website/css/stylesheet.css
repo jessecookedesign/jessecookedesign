@@ -8,6 +8,7 @@
 }
 body {
     background-color: #2a2c31;
+    border: 14px solid #1f2024;
 }
 h1 {
     font-family: titling-gothic-fb, sans-serif;
@@ -86,7 +87,7 @@ p {
 }
 
 #nav_ul li a:hover{
-    color: #FF3856;
+    color: #ff6c40;
     text-decoration: none;
     font-weight: 700;
 }
