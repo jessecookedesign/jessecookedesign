@@ -205,16 +205,31 @@
     
 <div class="container">
     <div class="row">
-        <div class="two-thirds column">
-            <p>this website was hard-coded on top of the skeleton.css framework</p>
+        <div class="six columns">
+            <p>This website was hard-coded by Jesse. It's built over the Skeleton CSS framework and utilizes vanilla JavaScript &amp; some jQuery for functionality.</p>
         </div>
-        <div class="one-third column">
+        <div class="three columns">
             <p class="footer_date">2020</p>
+        </div>
+        <div class="three columns">
+            <p>X: <span id="x_value"></span></p>
+            <p>Y: <span id="y_value"></span></p>
         </div>
     </div>
 </div>
     
 <!-- END FOOTER -->
+
+<!-- START JS -->
+<script type="text/javascript">
+
+window.addEventListener('mousemove', function(e) {
+    document.getElementById('x_value').textContent = e.x;
+    document.getElementById('y_value').textContent = e.y;
+});
+  
+</script>
+<!-- END JS -->
 
 </body>
 </html>
