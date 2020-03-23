@@ -1,0 +1,107 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>Jesse Cooke Design</title>
+<meta name="description" content="Jesse Cooke Design">
+<meta name="author" content="Jesse Allen Cooke">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<link href="https://fonts.googleapis.com/css?family=DM+Sans:400,400i,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/ojw5efg.css">
+
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/stylesheet.css">
+
+</head>
+
+    
+<body>
+
+    
+<!-- START HEADER -->
+
+<div id="nav_wrapper" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="twelve column">
+                <hr style="border: 1px solid #ff6c40;">
+            </div>
+        </div>
+        <div class="row">
+            <div id="jcd_logo_wrapper" class="one-third column">
+                <a href="index.html">
+                <img src="images/jc_logo_new.png" style="width: 40%;">
+                </a>
+            </div>
+            <div id="nav_ul_wrapper" class="two-thirds column">
+                <ul id="nav_ul">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<!-- END HEADER -->
+
+    
+<div class="knowledge_contain">
+    <div class="container" style="margin-top: 10%;">
+        <div class="row">
+          <div class="ten columns">
+            <h1>knowledge base</h1>
+              <h2>the place where I share what I know to help others learn</h2>
+          </div>
+        </div>
+    </div>
+
+    <div class="container" style="margin-top: 10%; margin-bottom: 10%;">
+        <div class="row">
+            <div class="six columns">
+                <p>I'm currently putting some content together. Please check back soon!<br>In the meantime, you can find some learnings on my <a href="https://www.instagram.com/jcooke.mn/">Instagram</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+</div>
+    
+    
+<!-- START FOOTER -->
+    
+<div class="container">
+    <div class="row">
+        <div class="six columns">
+            <p>This website was hard-coded by Jesse. It's built over the Skeleton CSS framework and utilizes vanilla JavaScript &amp; some jQuery for functionality.</p>
+        </div>
+        <div class="three columns">
+            <p class="footer_date">2020</p>
+        </div>
+        <div class="three columns">
+            <p>X: <span id="x_value"></span></p>
+            <p>Y: <span id="y_value"></span></p>
+        </div>
+    </div>
+</div>
+    
+<!-- END FOOTER -->
+
+<!-- START JS -->
+<script type="text/javascript">
+
+window.addEventListener('mousemove', function(e) {
+    document.getElementById('x_value').textContent = e.x;
+    document.getElementById('y_value').textContent = e.y;
+});
+  
+</script>
+<!-- END JS -->
+
+</body>
+</html>

@@ -28,6 +28,20 @@ h2 {
     color: #868d9b;
 }
 
+h3 {
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 1.5;
+    color: #868d9b;
+}
+
+h4 {
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 1.5;
+    color: #868d9b;
+}
+
 a {
     cursor: pointer;
     text-decoration: none;
@@ -41,7 +55,7 @@ a {
 p {
     font-weight: normal;
     color: #868d9b;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 
@@ -215,4 +229,34 @@ p {
 
 #about_bio {
     font-size: 26px;
+}
+
+/* KNOWLEDGE */
+
+.knowledge_contain {
+    background-color: #eae7e0;
+    padding: 40px 0px;
+    margin-bottom: 90px;
+    margin-top: 50px;
+    border-bottom: 12px solid #ff6c40;
+}
+
+.knowledge_contain h1{
+    color: #1f2024;
+}
+
+.knowledge_contain h2{
+    color: #1f2024;
+}
+
+.knowledge_contain h3{
+    color: #1f2024;
+}
+
+.knowledge_contain h4{
+    color: #1f2024;
+}
+
+.knowledge_contain p{
+    color: #1f2024;
 }
