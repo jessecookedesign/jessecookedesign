@@ -1,13 +1,23 @@
 /* OVERALL STYLES */
 
+:root {
+    --color-gray-light: #868d9b;
+    --color-gray: #2a2c31;
+    --color-gray-dark: #1f2024;
+    --color-tan: #eae7e0;
+    --color-orange: #ff6c40;
+    --color-blue: #27bfea;
+    --color-yellow: #eac703;
+}
+
 ::selection {
-  background: #868d9b;
+  background: var(--color-gray-light);
 }
 ::-moz-selection {
-  background: #868d9b;
+  background: var(--color-gray-light);
 }
 body {
-    background-color: #2a2c31;
+    background-color: var(--color-gray);
     border: 14px solid #1f2024;
 }
 h1 {
@@ -16,7 +26,7 @@ h1 {
     letter-spacing: -2px;
     font-size: 70px;
     line-height: 60px;
-    color: #868d9b;
+    color: var(--color-gray-light);
 }
 
 h2 {
@@ -25,21 +35,21 @@ h2 {
     letter-spacing: -2px;
     font-size: 48px;
     line-height: 50px;
-    color: #868d9b;
+    color: var(--color-gray-light);
 }
 
 h3 {
     font-weight: normal;
     font-size: 32px;
     line-height: 1.5;
-    color: #868d9b;
+    color: var(--color-gray-light);
 }
 
 h4 {
     font-weight: normal;
     font-size: 28px;
     line-height: 1.5;
-    color: #868d9b;
+    color: var(--color-gray-light);
 }
 
 a {
@@ -54,7 +64,7 @@ a {
 
 p {
     font-weight: normal;
-    color: #868d9b;
+    color: var(--color-gray-light);
     font-size: 18px;
 }
 
@@ -94,13 +104,13 @@ p {
 }
 
 #nav_ul li a{
-    color: #868d9b;
+    color: var(--color-gray-light);
     text-decoration: none;
     font-weight: 700;
 }
 
 #nav_ul li a:hover{
-    color: #ff6c40;
+    color: var(--color-orange);
     text-decoration: none;
     font-weight: 700;
 }
@@ -149,7 +159,7 @@ p {
 .home_grid_text {
     font-weight: 400;
     font-size: 22px;
-    color: #868d9b;
+    color: var(--color-gray-light);
     line-height: 20px;
 }
 
@@ -158,7 +168,7 @@ p {
 }
 .hp_row_contain:hover {
     transition: 1s;
-    background-color: #868d9b;
+    background-color: var(--color-gray-light);
     transform: scale(1.1);
     padding: 50px;
 }
