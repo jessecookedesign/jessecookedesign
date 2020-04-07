@@ -17,6 +17,13 @@
 <link rel="stylesheet" href="css/skeleton.css">
 <link rel="stylesheet" href="css/stylesheet.css">
 
+<!-- START XADIA-SPECIFIC LINKS -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/themes/prism-tomorrow.css"
+/>
+<link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
+
 </head>
 
     
@@ -43,6 +50,7 @@
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">ABOUT</a></li>
                     <li><a href="knowledge.html">KNOWLEDGE</a>
+                    <li><a href="xadia.html">XADIA</a>
                 </ul>
             </div>
         </div>
@@ -52,7 +60,7 @@
 <!-- END HEADER -->
 
     
-<div class="knowledge_contain">
+<div class="light_bg_contain">
     <div class="container" style="margin-top: 10%;">
         <div class="row">
           <div class="ten columns">
@@ -64,13 +72,119 @@
 
     <div class="container" style="margin-top: 10%; margin-bottom: 10%;">
         <div class="row">
-            <div class="six columns">
-                Intro/Summary<br>
-                Base components
+            <div class="one-third column">
+                <ul id="xadia_nav">
+                    <li><a href="#xadia_summary">Summary</a></li>
+                    <li><a href="#xadia_gettingstarted">Getting Started</a></li>
+                    <li><a href="#xadia_basiccomponents">Basic Components</a></li>
+                </ul>
+            </div>
+            <div class="two-thirds column">
+                <div id="xadia_summary" class="xadia_section_contain">
+                    <hr>
+                    <h3>Summary</h3>
+                    <p>Xadia is a library of email development components. The components are built for near-perfect rendering across a range of major email clients.<br><br>This is still a work in progress. Check back here or on <a href="https://github.com/jessecookedesign/xadia" target="_blank">Github.</a> for updates.</p>
+                </div>
+                <div id="xadia_gettingstarted" class="xadia_section_contain">
+                    <hr>
+                    <h3>Getting Started</h3>
+                    <h5 style="margin-top: 40px;">File download</h5>
+                    <p>Download the base files for Xadia <a href="https://github.com/jessecookedesign/xadia" target="_blank">here on Github.</a></p>
+                    <h5 style="margin-top: 40px;">Edit the <span class="code_snippet">&lt;head/&gt;</span></h5>
+                    <p>On <strong>line 15</strong>, you'll find a comment: <span class="code_snippet">Branding - Edit these</span><br>As you may have expected, this is the area you'll want to update. Swap out your brand font(s) here.</p>
+                    <pre><code class="language-css">
+/* Branding - Edit these */
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&amp;display=swap');
+h1, h2, h3, h4, h5, h6, p, a{font-family: 'DM Sans', Helvetica, Arial, sans-serif; color: #000000;}
+                    </code></pre>
+                </div>
+                <div id="xadia_basiccomponents" class="xadia_section_contain">
+                    <hr>
+                    <h3>Basic Components</h3>
+                    <h4 style="margin-top: 40px;">Preheader</h4>
+                    <pre><code class="language-html">
+&lt;!-- START COMPONENT: PREHEADER --&gt;
+&lt;!--[if gte mso 9]&gt;&lt;table align=&quot;center&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; style=&quot;width:600px;&quot;&gt;&lt;tr&gt;&lt;td align=&quot;center&quot; valign=&quot;top&quot; width=&quot;600&quot;&gt;&lt;![endif]--&gt;
+&lt;table align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;max-width: 600px; width: 100%;&quot; width=&quot;100%&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;table align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; role=&quot;presentation&quot; style=&quot;width: 90%;&quot; width=&quot;90%&quot;&gt;
+            &lt;!-- CONTENT START --&gt;
+            &lt;tr&gt;
+              &lt;td align=&quot;left&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;max-width: 500px;&quot; width=&quot;500&quot;&gt;
+                &lt;p class=&quot;preheader_text&quot;&gt;Meet Xadia, the new email development library by Jesse Allen Cooke&lt;/p&gt;
+              &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;!-- CONTENT END --&gt;
+        &lt;/table&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!--[if gte mso 9]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+&lt;!-- END COMPONENT: PREHEADER --&gt;
+                    </code></pre>
+                    <h4 style="margin-top: 40px;">Header</h4>
+                    <pre><code class="language-html">
+&lt;!-- START COMPONENT: HEADER --&gt;
+&lt;!--[if gte mso 9]&gt;&lt;table align=&quot;center&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; style=&quot;width:600px;&quot;&gt;&lt;tr&gt;&lt;td align=&quot;center&quot; valign=&quot;top&quot; width=&quot;600&quot;&gt;&lt;![endif]--&gt;
+&lt;table align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;max-width: 600px; width: 100%;&quot; width=&quot;100%&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;table align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; role=&quot;presentation&quot; style=&quot;width: 90%;&quot; width=&quot;90%&quot;&gt;
+            &lt;!-- CONTENT START --&gt;
+            &lt;tr&gt;
+              &lt;td align=&quot;left&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;max-width: 600px;&quot; width=&quot;100%&quot;&gt;
+                &lt;a href=&quot;#&quot; style=&quot;text-decoration: none;&quot;&gt;
+                  &lt;h1 style=&quot;font-size: 80px; letter-spacing: -5px; line-height: 80px;&quot;&gt;xadia&lt;/h1&gt;
+                  &lt;p class=&quot;header_tagline&quot; style=&quot;color: #2a2c31;&quot;&gt;Email Development Library&lt;/p&gt;
+                  &lt;hr&gt;
+                &lt;/a&gt;
+              &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;!-- CONTENT END --&gt;
+        &lt;/table&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!--[if gte mso 9]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+&lt;!-- END COMPONENT: HEADER --&gt;
+                    </code></pre>
+                    <h4 style="margin-top: 40px;">Text</h4>
+                    <pre><code class="language-html">
+&lt;!-- START COMPONENT: Text --&gt;
+&lt;!--[if gte mso 9]&gt;&lt;table align=&quot;center&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; border=&quot;0&quot; style=&quot;width:600px;&quot;&gt;&lt;tr&gt;&lt;td align=&quot;center&quot; valign=&quot;top&quot; width=&quot;600&quot;&gt;&lt;![endif]--&gt;
+&lt;table align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;max-width: 600px; width: 100%;&quot; width=&quot;100%&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;
+        &lt;table align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; role=&quot;presentation&quot; style=&quot;width: 90%;&quot; width=&quot;90%&quot;&gt;
+            &lt;!-- CONTENT START --&gt;
+            &lt;tr&gt;
+              &lt;td align=&quot;left&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; style=&quot;max-width: 600px;&quot; width=&quot;100%&quot;&gt;
+                &lt;a href=&quot;#&quot; style=&quot;text-decoration: none;&quot;&gt;
+                  &lt;h1&gt;Welcome!&lt;/h1&gt;
+                  &lt;h2 style=&quot;width: 90%;&quot;&gt;Ready to build emails quickly and with full control?&lt;/h2&gt;
+                  &lt;p&gt;Xadia focuses on keeping things simple. Start by grabbing a component from the library and replacing this code.&lt;/p&gt;
+                &lt;/a&gt;
+              &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;!-- CONTENT END --&gt;
+        &lt;/table&gt;
+      &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!--[if gte mso 9]&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;![endif]--&gt;
+&lt;!-- END COMPONENT: Text --&gt;
+                    </code></pre>
+                </div>
             </div>
         </div>
     </div>
-    
 </div>
     
     
@@ -102,6 +216,8 @@ window.addEventListener('mousemove', function(e) {
 });
   
 </script>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.0/prism.min.js"></script>
 <!-- END JS -->
 
 </body>

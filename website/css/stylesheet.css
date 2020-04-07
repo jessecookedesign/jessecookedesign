@@ -68,6 +68,20 @@ p {
     font-size: 18px;
 }
 
+.code_snippet {
+    font-family: monospace;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 2px 6px;
+    vertical-align: 2px;
+    border-radius: 5px;
+}
+
+code {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
 
 @media only screen and (max-width: 600px) {
     h1 {
@@ -144,6 +158,53 @@ p {
     font-weight: 700;
     letter-spacing: 1px;
 }
+
+
+/* LIGHT THEME PAGES */
+
+.light_bg_contain {
+    background-color: #eae7e0;
+    padding: 40px 0px;
+    margin-bottom: 90px;
+    margin-top: 50px;
+    border-bottom: 12px solid #ff6c40;
+}
+
+.light_bg_contain h1{
+    color: var(--color-gray-dark);
+}
+
+.light_bg_contain h2{
+    color: var(--color-gray-dark);
+}
+
+.light_bg_contain h3{
+    color: var(--color-gray-dark);
+}
+
+.light_bg_contain h4{
+    color: var(--color-gray-dark);
+}
+
+.light_bg_contain p{
+    color: var(--color-gray-dark);
+}
+
+.light_bg_contain a{
+    color: #1978d4;
+}
+
+.light_bg_contain a:hover{
+    color: var(--color-gray-dark);
+    border-bottom: 2px solid #1f2024;
+}
+
+.light_bg_contain hr{
+    border: 1px solid #ff6c40;
+    padding: 0px;
+    margin: 0px 0px 20px 0px;
+}
+
 
 /* HOMEPAGE */
 
@@ -243,30 +304,22 @@ p {
 
 /* KNOWLEDGE */
 
-.knowledge_contain {
-    background-color: #eae7e0;
-    padding: 40px 0px;
-    margin-bottom: 90px;
-    margin-top: 50px;
-    border-bottom: 12px solid #ff6c40;
+
+/* XADIA */
+
+#xadia_nav {
+    list-style-type: none;
 }
 
-.knowledge_contain h1{
-    color: #1f2024;
+#xadia_nav a {
+    color: var(--color-gray-dark);
+    font-size: 18px;
 }
 
-.knowledge_contain h2{
-    color: #1f2024;
+.xadia_section_contain {
+    margin-bottom: 80px;
 }
 
-.knowledge_contain h3{
-    color: #1f2024;
-}
-
-.knowledge_contain h4{
-    color: #1f2024;
-}
-
-.knowledge_contain p{
-    color: #1f2024;
+.xadia_section_contain h1, h2, h3, h4, h5, h6, p{
+    margin: 10px 0px;
 }
