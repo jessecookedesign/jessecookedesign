@@ -134,18 +134,21 @@ code {
     #nav_ul {
     float: none;
     text-align: center;
+    top: auto;
+    position: relative;
+    margin-top: 30px;
     }
     #nav_ul li{
-    padding: 0px 20px;
+    padding: 0px;
+    }
+    #nav_ul li::after{
+    content: "\A\A";
+    white-space: pre;
     }
     #jcd_logo_wrapper {
     text-align: center;
     }
     #jcd_logo{
-    top: auto;
-    position: relative;
-    }
-    #nav_ul {
     top: auto;
     position: relative;
     }
