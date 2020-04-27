@@ -24,18 +24,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-W2C2G27');</script>
 <!-- End Google Tag Manager -->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script>
-    // jQuery hover method for hp row
-    $(document).ready(function() {
-        $(".hp_row_contain").hover(function() {
-            $("#albumimg").attr('src', 'images/jcd_web_project_album_18.jpg');
-        }, function() {
-            $("#albumimg").attr('src', 'images/jcd_web_project_album_14.jpg');
-        });
-    });
-</script>
 </head>
 
 
@@ -82,15 +70,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </div>
 </div>
-
+    
+    
 <div class="container" style="margin-top: 10%;">
-    <div class="row hp_row_contain" onclick="location.href='project-albumcover.html';" style="cursor: pointer;">
-        <div class="one-half column hp_column">
-            <img src="images/jcd_web_project_album_19.jpg" style="width: 100%;" id="albumimg">
+    <div class="row" onclick="location.href='project-albumcover.html';" style="cursor: pointer;">
+        <div class="one-half column hp_feature_grid">
+            <p class="hp_feature_grid_text">the<br>album<br>cover</p>
         </div>
-        <div class="one-half column hp_column">
-            <p class="home_grid_category">SIDE PROJECT</p>
-            <a class="home_grid_text" href="project-albumcover.html">The Album Cover</a>
+        <div class="one-half column hp_feature_grid">
+            <p class="hp_feature_grid_text">maurices<br>modular<br>email<br>system</p>
         </div>
     </div>
 </div>
