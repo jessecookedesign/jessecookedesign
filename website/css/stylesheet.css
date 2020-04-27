@@ -68,14 +68,6 @@ p {
     font-size: 18px;
 }
 
-.code_snippet {
-    font-family: monospace;
-    background-color: rgba(0, 0, 0, 0.1);
-    padding: 2px 6px;
-    vertical-align: 2px;
-    border-radius: 5px;
-}
-
 code {
     border: none;
     margin: 0;
@@ -118,6 +110,27 @@ code {
 
 .spacedown10 {
     margin-bottom: 10%;
+}
+
+.code_snippet {
+    font-family: monospace;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 2px 6px;
+    vertical-align: 2px;
+    border-radius: 5px;
+}
+
+.code_list_item {
+    font-family: monospace;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.1);
+    display:table;
+    padding: 0px 6px;
+}
+
+.note {
+    font-size: 14px;
+    font-style: italic;
 }
 
 /* MAIN NAV */
@@ -354,7 +367,19 @@ code {
     background-color: var(--color-orange);
 }
 
+.light_bg_contain .post_signature_links {
+    font-family: monospace;
+    color: var(--color-grey-dark);
+    margin-right: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 
+.light_bg_contain .note {
+    font-family: monospace;
+    color: #707070;
+}
 /* XADIA */
 
 #xadia_nav {
