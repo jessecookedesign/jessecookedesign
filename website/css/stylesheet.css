@@ -323,38 +323,38 @@ code {
 
 @keyframes flipthroughalbums {
   from {
-    background: url(/jessecookedesign/website/images/jcd_web_project_album_02.jpg);
+    background: url(/images/jcd_web_project_album_02.jpg);
   }
     10% {
-        background: url(/jessecookedesign/website/images/jcd_web_project_album_05.jpg);
+        background: url(/images/jcd_web_project_album_05.jpg);
     }
     20% {
-        background: url(/jessecookedesign/website/images/jcd_web_project_album_09.jpg);
+        background: url(/images/jcd_web_project_album_09.jpg);
     }
     30% {
-        background: url(/jessecookedesign/website/images/jcd_web_project_album_12.jpg);
+        background: url(/images/jcd_web_project_album_12.jpg);
     }
     40% {
-        background: url(/jessecookedesign/website/images/jcd_web_project_album_16.jpg);
+        background: url(/images/jcd_web_project_album_16.jpg);
     }
     50% {
-        background: url(/jessecookedesign/website/images/jcd_web_project_album_17.jpg);
+        background: url(/images/jcd_web_project_album_17.jpg);
     }
     60% {
-        background: url(/jessecookedesign/website/images/jcd_web_project_album_19.jpg);
+        background: url(/images/jcd_web_project_album_19.jpg);
     }
     70% {
-        background: url(/jessecookedesign/website/images/jcd_web_project_album_24.jpg);
+        background: url(/images/jcd_web_project_album_24.jpg);
     }
     80% {
-        background: url(/jessecookedesign/website/images/jcd_web_project_album_26.jpg);
+        background: url(/images/jcd_web_project_album_26.jpg);
     }
     90% {
-        background: url(/jessecookedesign/website/images/jcd_web_project_album_30.jpg);
+        background: url(/images/jcd_web_project_album_30.jpg);
     }
   
   to {
-    background: url(/jessecookedesign/website/images/jcd_web_project_album_06.jpg);
+    background: url(/images/jcd_web_project_album_06.jpg);
   }
 }
 
@@ -366,20 +366,20 @@ code {
 
 @keyframes flipthroughemails {
   from {
-    background: url(/jessecookedesign/website/images/jcd_web_home_mauEmail_01.jpg);
+    background: url(/images/jcd_web_home_mauEmail_01.jpg);
   }
     25% {
-        background: url(/jessecookedesign/website/images/jcd_web_home_mauEmail_02.jpg);
+        background: url(/images/jcd_web_home_mauEmail_02.jpg);
     }
     50% {
-        background: url(/jessecookedesign/website/images/jcd_web_home_mauEmail_03.jpg);
+        background: url(/images/jcd_web_home_mauEmail_03.jpg);
     }
     75% {
-        background: url(/jessecookedesign/website/images/jcd_web_home_mauEmail_04.jpg);
+        background: url(/images/jcd_web_home_mauEmail_04.jpg);
     }
   
   to {
-    background: url(/jessecookedesign/website/images/jcd_web_home_mauEmail_05.jpg);
+    background: url(/images/jcd_web_home_mauEmail_05.jpg);
   }
 }
 
@@ -391,20 +391,20 @@ code {
 
 @keyframes flipthroughmachinery {
   from {
-    background: url(/jessecookedesign/website/images/jcd_web_project_machinery_01.jpg);
+    background: url(/images/jcd_web_project_machinery_01.jpg);
   }
     25% {
-        background: url(/jessecookedesign/website/images/jcd_web_project_machinery_02.jpg);
+        background: url(/images/jcd_web_project_machinery_02.jpg);
     }
     50% {
-        background: url(/jessecookedesign/website/images/jcd_web_project_machinery_03.jpg);
+        background: url(/images/jcd_web_project_machinery_03.jpg);
     }
     75% {
-        background: url(/jessecookedesign/website/images/jcd_web_project_machinery_04.jpg);
+        background: url(/images/jcd_web_project_machinery_04.jpg);
     }
   
   to {
-    background: url(/jessecookedesign/website/images/jcd_web_project_machinery_05.jpg);
+    background: url(/images/jcd_web_project_machinery_05.jpg);
   }
 }
 
@@ -416,20 +416,20 @@ code {
 
 @keyframes flipthroughdestiny {
   from {
-    background: url(/jessecookedesign/website/images/jcd_web_project_destiny_01.jpg);
+    background: url(/images/jcd_web_project_destiny_01.jpg);
   }
     25% {
-        background: url(/jessecookedesign/website/images/jcd_web_project_destiny_02.jpg);
+        background: url(/images/jcd_web_project_destiny_02.jpg);
     }
     50% {
-        background: url(/jessecookedesign/website/images/jcd_web_project_destiny_03.jpg);
+        background: url(/images/jcd_web_project_destiny_03.jpg);
     }
     75% {
-        background: url(/jessecookedesign/website/images/jcd_web_project_destiny_04.jpg);
+        background: url(/images/jcd_web_project_destiny_04.jpg);
     }
   
   to {
-    background: url(/jessecookedesign/website/images/jcd_web_project_destiny_05.jpg);
+    background: url(/images/jcd_web_project_destiny_05.jpg);
   }
 }
 
