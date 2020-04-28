@@ -501,6 +501,13 @@ code {
 .post_tile {
     border: 2px solid var(--color-gray-dark);
     padding: 20px;
+    margin: 0px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .post_tile {
+    margin: 10px 0px;
+}
 }
 
 .post_tile:hover{
