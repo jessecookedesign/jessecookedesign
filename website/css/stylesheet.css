@@ -133,6 +133,18 @@ code {
     font-style: italic;
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.smalltext {
+    font-size: 80%;
+}
+
 /* MAIN NAV */
 
 #jcd_logo{
