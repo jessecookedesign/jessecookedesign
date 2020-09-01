@@ -6,11 +6,13 @@
 
 ***
 
-:sunrise: Content creator on Instagram: [@ jcooke.mn](https://www.instagram.com/jcooke.mn/)
-
 :parking: Owner of [Pixl Haus](https://www.instagram.com/pixlhaus.design/)
 
 :iphone: Building [folkstore.app](https://www.folkstore.app/)
+
+***
+
+Instagram: [@ jcooke.mn](https://www.instagram.com/jcooke.mn/)
 
 ***
 
