@@ -31,17 +31,7 @@
     
 <body>
 
-    
-    
-    
-
-<div class="container" style="margin-top: 10%; margin-bottom: 10%;">
-    <div class="row">
-      <div class="two-thirds column">
-          <canvas id="myCanvas" width="400" height="100" style="display: none;"></canvas>
-      </div>
-    </div>
-</div>
+<canvas id="myCanvas" width="400" height="100" style="display: none;"></canvas>
 
 <!-- START JS -->
 <script type="text/javascript">
@@ -52,8 +42,12 @@
         var canvas = document.getElementById("myCanvas");
         var ctx = canvas.getContext("2d");
         
+        ctx.fillStyle = "white";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.fillStyle = "black";    
         ctx.font = "30px Arial";
         ctx.fillText(text, 10, 50);
+       
         
         dataUrl = canvas.toDataURL(),
         newImg = document.createElement('img');
