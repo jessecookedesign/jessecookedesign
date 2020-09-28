@@ -38,7 +38,7 @@
 <div class="container" style="margin-top: 10%; margin-bottom: 10%;">
     <div class="row">
       <div class="two-thirds column">
-          <canvas id="myCanvas" width="400" height="100" style="background-color: #fff;"></canvas>
+          <canvas id="myCanvas" width="400" height="100" style="display: none;"></canvas>
       </div>
     </div>
 </div>
@@ -51,8 +51,19 @@
         
         var canvas = document.getElementById("myCanvas");
         var ctx = canvas.getContext("2d");
-        ctx.font = "30px Helvetica";
+        
+        ctx.font = "30px Arial";
         ctx.fillText(text, 10, 50);
+        
+        dataUrl = canvas.toDataURL(),
+        newImg = document.createElement('img');
+        newImg.src = dataUrl;
+    
+        // Style your image here
+        newImg.style.backgroundColor = "#ffffff";
+
+        // After you are done styling it, append it to the BODY element
+        document.body.appendChild(newImg);
     </script>
 <!-- END JS -->
     
