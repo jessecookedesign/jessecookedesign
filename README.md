@@ -2,7 +2,7 @@
 
 :black_small_square: **Email Developer @ maurices**
 
-:black_small_square: **Graphic Designer, Web Designer/Developer by night**
+:black_small_square: **Web Designer/Developer & Graphic Designer by night**
 
 ***
 
