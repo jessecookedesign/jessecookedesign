@@ -2,7 +2,7 @@
 
 :black_small_square: **Email Developer @ maurices**
 
-:black_small_square: **Graphic Designer, Web Designer/Developer by night**
+:black_small_square: **Web Designer/Developer & Graphic Designer by night**
 
 ***
 
@@ -10,9 +10,11 @@
 
 :iphone: Building [folkstore.app](https://www.folkstore.app/)
 
+:memo: Building [Four Point Five](https://fourpointfive.netlify.app/)
+
 ***
 
-Instagram: [@ jcooke.mn](https://www.instagram.com/jcooke.mn/)
+Instagram: [@jcooke.mn](https://www.instagram.com/jcooke.mn/)
 
 ***
 

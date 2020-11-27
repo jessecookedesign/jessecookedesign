@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>JCD - Test page</title>
+<meta name="description" content="Jesse Cooke Design">
+<meta name="author" content="Jesse Allen Cooke">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+    
+<body>
+
+<canvas id="myCanvas" width="400" height="100" style="display: none;"></canvas>
+
+<!-- START JS -->
+<script type="text/javascript">
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const text = urlParams.get('text');
+        
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        
+        ctx.fillStyle = "white";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.fillStyle = "black";    
+        ctx.font = "30px Arial";
+        ctx.fillText(text, 10, 50);
+       
+        
+        dataUrl = canvas.toDataURL(),
+        newImg = document.createElement('img');
+        newImg.src = dataUrl;
+    
+        // Style your image here
+        newImg.style.backgroundColor = "#ffffff";
+
+        // After you are done styling it, append it to the BODY element
+        document.body.appendChild(newImg);
+    
+        // Remove canvas
+        canvas.parentNode.removeChild(canvas);
+    </script>
+<!-- END JS -->
+    
+
+</body>
+</html>
