@@ -1,8 +1,8 @@
 # Jesse Cooke
 
-:black_small_square: **Email Developer @ maurices**
+:black_small_square: **Designer, Developer, and Digital Artist**
 
-:black_small_square: **Web Designer/Developer & Graphic Designer by night**
+Find out more at [jcooke.me](https://www.jcooke.me/)
 
 ***
 
@@ -10,11 +10,9 @@
 
 :iphone: Building [folkstore.app](https://www.folkstore.app/)
 
-:memo: Building [Four Point Five](https://fourpointfive.netlify.app/)
-
 ***
 
-Instagram: [@jcooke.mn](https://www.instagram.com/jcooke.mn/)
+Instagram: [@jcooke.mn](https://www.instagram.com/jcooke.me/)
 
 ***
 
